@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black"
+    android:layout_marginBottom="8dp"
+    android:elevation="4dp"
+    android:backgroundTint="@color/black">
+
+    <TextView
+        android:id="@+id/bikeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bike Name"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rentalPeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rental Period"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/paymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:paddingTop="4dp" />
+
+    <Button
+        android:id="@+id/buttonEndRental"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish Rental"
+        android:textColor="@android:color/black"
+        android:background="@color/white"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white" />
+
+</LinearLayout>

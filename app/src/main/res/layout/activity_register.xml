@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        android:alpha="0.7"/>
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/splash_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageLogo"
+        android:layout_marginTop="30dp"
+        android:padding="24dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:alpha="0.95"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="#000"
+            android:textColorHint="#666"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="#000"
+            android:textColorHint="#666"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="#000"
+            android:textColorHint="#666"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="#000"
+            android:textColorHint="#666"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:clickable="true"
+            android:focusable="true"
+            android:backgroundTint="#FFCB74"
+            android:textColor="#111111"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="#FFCB74"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

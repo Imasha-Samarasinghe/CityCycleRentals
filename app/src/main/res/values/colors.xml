@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="black">#111111</color>  <!-- Dark Background -->
+        <color name="white">#f6f6f6</color>  <!-- White Text -->
+        <color name="gold">#ffcb74</color>  <!-- Gold Button -->
+        <color name="grey">#2f2f2f</color>  <!-- Gold Button -->
+        <color name="nav_icon_color">#f6f6f6</color>
+        <color name="nav_text_color">#ffcb74</color>
+</resources>

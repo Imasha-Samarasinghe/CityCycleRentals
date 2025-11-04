@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="bike_types">
+        <item>All</item>
+        <item>Mountain</item>
+        <item>Scooter</item>
+        <item>Gear Bike</item>
+    </string-array>
+</resources>

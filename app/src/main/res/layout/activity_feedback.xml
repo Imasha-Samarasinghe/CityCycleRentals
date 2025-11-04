@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textViewFeedbackTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We value your feedback!"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBarFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="0"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextFeedbackComment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Write your comment here..."
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonSubmitFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Feedback"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewFAQTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewFAQ1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1: How to rent a bike?"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewFAQ1Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A1: You can rent a bike by selecting a city and choosing a bike station from the list."
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/textViewFAQ2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2: How do I track my rentals?"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textViewFAQ2Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A2: You can view your active rentals and past rides in the 'My Rides' section."
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:paddingBottom="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textViewStayWithUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stay with us"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
